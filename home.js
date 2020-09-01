@@ -1,5 +1,5 @@
 //API Key
-const api = b0e816ad7b86bc25e7ed845526754dc9;
+const api;
 
 //Search by city name
 const form = document.querySelector('section-1 form');
