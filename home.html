@@ -1,0 +1,44 @@
+<!--
+Make a simple weather API page, but implement a HTTP Request limit of once
+per location every 10 minutes.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>What's the Weather Like?</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="section-1">
+        <div>
+            <h1 class="title">Want to know the weather in your local area?</h1>
+            <p class="description">Want to find out the current weather anywhere in the world?
+                <br>
+               Fill out the short form below!
+            </p>
+            <form>
+                <input id="city" type="text" placeholder= "Enter your city here!" autofocus></input>
+                <br>
+                <button type="submit">Submit</button>
+                <span class="msg"></span>
+            </form>
+        </div>
+    </section>
+    
+    <section class="section-2">
+        <div class="container">
+            <ul class="cities"></ul>
+        </div>
+    </section>
+
+
+
+    <footer class="page-footer">
+        <div class="container">
+          <small>Made with <span>❤</span> by Tory Moscaritolo</small>
+        </div>
+    </footer>
+</body>
+</html>
