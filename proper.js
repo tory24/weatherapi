@@ -24,7 +24,7 @@ form.addEventListener("submit", e => {
       let content = "";
       //If user entered City, with Country -> 'athens, gr'
       if(inputVal.includes(',')) {
-        //Athens, grrr => grrr is Invalid
+        //Athens, grrr => Invalid
         if(inputVal.split(',')[1].length > 2) {
           //Only take the first word
           inputVal = inputVal.split(',')[0];
@@ -43,14 +43,12 @@ form.addEventListener("submit", e => {
     //If the filteredArr contains anything, instruct them to search for something else
     if (filteredArr.length > 0) {
       msg.textContent = `It seems already know the weather for ${filteredArr[0].querySelector('.city-name span').textContent
-      }! ...otherwise try being more specific by providing the country code as well :)`;
-      document.getElementById('msg').style.color = 'rgb(255, 75, 105)';
-      document.getElementById('msg').style.backgroundColor = 'rgb(128, 128, 128)';
-      //Empty the form
-      form.reset();
-      //Focus user to input bar
-      input.focus();
-      return;
+    }! ...otherwise try being more specific by providing the country code as well :)`;
+    //Empty the form
+    form.reset();
+    //Focus user to input bar
+    input.focus();
+    return;
     }
   }
 
@@ -85,7 +83,6 @@ form.addEventListener("submit", e => {
     //The new html element is now equal to markup
     li.innerHTML = markup;
     //Add li to the end of list (Identified above)
-    list.removeChild(list.childNodes[1]);
     list.appendChild(li);
   //If response returns invalid
   }).catch(() => {
