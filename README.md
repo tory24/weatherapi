@@ -1,12 +1,10 @@
 # weatherapi
-This is a simple weather app, that will return the weather in the city entered. 
 
-This returns up to 4 cities alongside eachother.
+This is a simple weather app. 
+This returns up to 2 cities alongside eachother.
 
 ### Why?
-Again just to test myself, and also to learn how to pull data from an API key.
+This is just a small project that I decided I wanted to do as a way to test myself, and also to learn some new skills, such as how to properly use an API key & how to create a fetch request using both the fetch() method and async-await.
 
 ### Notes
-I built most of this myself, however I have used the app I was trying to learn from's JS. I have commented on it myself.
-
-I am planning on altering it to work with my intended vision at a later date. 
+I built most of this myself, however I initially used the JS from the app I was using to learn. Despite this, I have been able to understand what the JS used was doing and changed the fetch method to an Async-Await method that works exactly the same.
