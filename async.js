@@ -4,7 +4,7 @@ const msg = document.querySelector(".section-1 .msg");
 const list = document.querySelector(".section-2 .cities");
 
 //Your API key
-const api = '4a2c712c3f424e9409472f9b5a9a1046';
+const api;
 
 //Form
 form.addEventListener("submit", e => {
