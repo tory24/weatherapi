@@ -3,6 +3,12 @@
 This is a simple weather app. 
 This returns up to 2 cities alongside eachother.
 
+![Enter City](images/new-city.gif)
+
+Any new searches will replace the oldest search, and incorrect searches yield an error.
+
+![More Cities](images/more-cities.gif)
+
 ### Why?
 This is just a small project that I decided I wanted to do as a way to test myself, and also to learn some new skills, such as how to properly use an API key & how to create a fetch request using both the fetch() method and async-await.
 
